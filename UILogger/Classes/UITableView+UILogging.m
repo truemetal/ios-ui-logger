@@ -57,19 +57,18 @@
         }
         NSString *vcClass = vc != nil? NSStringFromClass([vc class]) : nil;
         
-        NSString *tableText = cell.textLabel.text;
-        if (tableText != nil) tableText = [NSString stringWithFormat:@": %@", tableText];
-        else tableText = @"";
-        
         if (UILogHelper.printToConsole) {
+            NSString *tableText = cell.textLabel.text;
+            if (tableText != nil) tableText = [NSString stringWithFormat:@": %@", tableText];
+            else tableText = @"";
+
             NSString *log = [NSString stringWithFormat:@"%@ Did select table cell (%@%@) %@ selected", [UILogHelper timeSinceLaunchStr], indexPathStr, tableText, cellClass];
-            if (vcClass != nil)
-                log = [log stringByAppendingFormat:@" from %@", vcClass];
+            if (vcClass != nil) log = [log stringByAppendingFormat:@" from %@", vcClass];
             
             printf("UI Log: %s\n", [log UTF8String]);
         }
         
-        UILogItem *logItem = [[UILogItem alloc] initWithType:UILogItemTypeTableCellTap object:cell title:tableText indexPath:indexPath];
+        UILogItem *logItem = [[UILogItem alloc] initWithType:UILogItemTypeTableCellTap object:cell title:cell.textLabel.text indexPath:indexPath];
         [[NSNotificationCenter defaultCenter] postNotificationName:UILogItem.uiLogNotification object:logItem];
     }
     
