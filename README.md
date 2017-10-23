@@ -6,14 +6,23 @@ Did you ever have a need to add logging of user actions to see how to reproduce 
 UILogHelper.printToConsole = false
 
 NotificationCenter.default.addObserver(forName: UILogItem.uiLogNotification, object: nil, queue: nil) { n in
-    // handle log event, e.g. like this. Event details are in n.object
+    // handle log event, e.g. add it to your crash reporter's
     guard let log = n.object as? UILogItem else { return }
     if log.type == .viewControllerDidAppear { }
     if log.type == .controlAction { }
 }
 ```
 
-It's quite a bare-bone implementation now, please feel free to open the issue if you'd like a feature added. A pull-request would be even better.
+At this point `n.object` is an instance of `UILogItem` which has these properties:
+```obj-c
+@property (nonatomic) UILogItemType type;
+@property (nonatomic, strong, nonnull) NSDate *timestamp;
+@property (nonatomic, strong, nonnull) NSObject *object;
+@property (nonatomic, strong, nullable) NSString *title;
+@property (nonatomic, strong, nullable) NSIndexPath *indexPath;
+```
+
+This is quite a bare-bone implementation, please feel free to open the issue if you'd like a feature added. A pull-request would be even better.
 
 Under the hood it's `obj-c` code that swizzles `UIApplication`, `UIViewController`, `UITableView` and `UICollectionView`.
 Please let me know if you have a better idea for implementing this then swizzling.
@@ -33,7 +42,7 @@ pod 'UILogger'
 
 ## Author
 
-Dan Pashchenko, https://ios-engineer.com
+Dan Pashchenko https://ios-engineer.com
 
 ## License
 
