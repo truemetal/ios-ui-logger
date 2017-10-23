@@ -22,7 +22,7 @@ pod 'UILogger'
 
 ## Author
 
-truemetal, true.metal.of.steel@gmail.com
+Dan Pashchenko
 
 ## License
 
