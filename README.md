@@ -40,6 +40,12 @@ it, simply add the following line to your Podfile:
 pod 'UILogger'
 ```
 
+## Installation
+
+ToDo:
+- clean up console logging logic
+- make `UILogTitle` protocol and extensions for `UIViewController`, `UIButton`, `UICollectionViewCell` to provide it's meaningful title
+
 ## Author
 
 Dan Pashchenko https://ios-engineer.com

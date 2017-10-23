@@ -59,10 +59,10 @@
         if (title2 != nil) title = title2;
     }
     
-    if (title != nil) title = [NSString stringWithFormat:@" (%@)", title];
-    else title = @"";
-    
     if (UILogHelper.printToConsole) {
+        if (title != nil) title = [NSString stringWithFormat:@" (%@)", title];
+        else title = @"";
+        
         NSString *log = [NSString stringWithFormat:@"%@ viewDidAppear for %@%@", [UILogHelper timeSinceLaunchStr], NSStringFromClass([self class]), title];
         printf("UI Log: %s\n", [log UTF8String]);
     }
