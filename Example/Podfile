@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UILogger_Example' do
+  pod 'UILogger', :path => '../'
+
+  target 'UILogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
