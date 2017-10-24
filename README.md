@@ -1,5 +1,10 @@
 # UILogger
 
+[![CI Status](http://img.shields.io/travis/truemetal/UILogger.svg?style=flat)](https://travis-ci.org/truemetal/Peanut)
+[![Version](https://img.shields.io/cocoapods/v/UILogger.svg?style=flat)](http://cocoapods.org/pods/Peanut)
+[![License](https://img.shields.io/cocoapods/l/UILogger.svg?style=flat)](http://cocoapods.org/pods/Peanut)
+[![Platform](https://img.shields.io/cocoapods/p/UILogger.svg?style=flat)](http://cocoapods.org/pods/Peanut)
+
 Did you ever have a need to add logging of user actions to see how to reproduce that crash? This pod does just that.
 
 ```swift
