@@ -52,7 +52,8 @@ pod 'UILogger'
 
 ## Author
 
-Dan Pashchenko https://ios-engineer.com
+Dan Pashchenko
+https://ios-engineer.com
 
 ## License
 
