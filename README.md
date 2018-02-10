@@ -17,19 +17,19 @@ NotificationCenter.default.addObserver(forName: UILogger.uiLogNotification, obje
 }
 ```
 
-At this point `n.object` is an instance of one of the subclasses of `UILogItem`, please take a look at those for details. Each of those implements this property, which contains all details in String format:
+At this point `n.object` is an instance of one of the subclasses of `UILogItem`, please take a look at those for details. Each of those implements this property, which contains all details as strings:
 ```swift
 public lazy var descriptionDict: [String : String]
 ```
 
-### Action types
+#### Action types
 
 There're these log action types: `viewControllerDidAppear`, `controlAction`, `tableCellTap` and `collectionCellTap`
 
 Under the hood there's `swift` code for the logic and `obj-c` code that swizzles `UIApplication`, `UIViewController`, `UITableView` and `UICollectionView`.
 Please let me know if you have a better idea for implementing this then swizzling.
 
-### Title customization
+#### Cells title customization
 
 There's this protocol if you'd like to return title from custom table or collection view cell:
 
