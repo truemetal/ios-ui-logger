@@ -19,6 +19,6 @@ A logging framework to log UI actions e.g. button taps, view controller appearan
   s.source           = { :git => 'https://github.com/truemetal/ios-ui-logger.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'UILogger/Classes/*.{h,m}'
+  s.source_files = 'UILogger/Classes/*.{h,m,swift}', 'UILogger/Classes/*/*.{h,m,swift}'
   s.frameworks = 'UIKit'
 end

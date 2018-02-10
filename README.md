@@ -8,29 +8,36 @@
 Did you ever have a need to add logging of user actions to see how to reproduce that crash? This pod does just that.
 
 ```swift
-UILogHelper.printToConsole = false
+UILogger.printToConsole = false
 
-NotificationCenter.default.addObserver(forName: UILogItem.uiLogNotification, object: nil, queue: nil) { n in
-    // handle log event, e.g. add it to your crash reporter's
-    guard let log = n.object as? UILogItem else { return }
-    if log.type == .viewControllerDidAppear { }
-    if log.type == .controlAction { }
+NotificationCenter.default.addObserver(forName: UILogger.uiLogNotification, object: nil, queue: nil) { (n) in
+    guard let logItem = n.object as? UILogItem else { return }
+    // do something here with logItem
+    print("received log item: \(UILoggerLaunchTimeHolder.appUptime()) \(logItem.descriptionDict)")
 }
 ```
 
-At this point `n.object` is an instance of `UILogItem` which has these properties:
-```obj-c
-@property (nonatomic) UILogItemType type;
-@property (nonatomic, strong, nonnull) NSDate *timestamp;
-@property (nonatomic, strong, nonnull) NSObject *object;
-@property (nonatomic, strong, nullable) NSString *title;
-@property (nonatomic, strong, nullable) NSIndexPath *indexPath;
+At this point `n.object` is an instance of one of the subclasses of `UILogItem`, please take a look at those for details. Each of those implements this property, which contains all details in String format:
+```swift
+public lazy var descriptionDict: [String : String]
 ```
 
-This is quite a bare-bone implementation, please feel free to open the issue if you'd like a feature added. A pull-request would be even better.
+### Action types
 
-Under the hood it's `obj-c` code that swizzles `UIApplication`, `UIViewController`, `UITableView` and `UICollectionView`.
+There're these log action types: `viewControllerDidAppear`, `controlAction`, `tableCellTap` and `collectionCellTap`
+
+Under the hood there's `swift` code for the logic and `obj-c` code that swizzles `UIApplication`, `UIViewController`, `UITableView` and `UICollectionView`.
 Please let me know if you have a better idea for implementing this then swizzling.
+
+### Title customization
+
+There's this protocol if you'd like to return title from custom table or collection view cell:
+
+```swift
+public protocol UILogTitleProvider {
+var uiLogTitle: String? { get }
+}
+```
 
 ## Example
 
@@ -44,11 +51,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'UILogger'
 ```
-
-## ToDo
-
-- clean up console logging logic
-- make `UILogTitle` protocol and extensions for `UIViewController`, `UIButton`, `UICollectionViewCell` to provide it's meaningful title
 
 ## Author
 

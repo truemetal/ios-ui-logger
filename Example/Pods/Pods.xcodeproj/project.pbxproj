@@ -7,103 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBA28D2437EF5F3EA84BB2F00A25249 /* Pods-UILogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2924B9EAE433943AF7EBA2716A366582 /* Pods-UILogger_Example-dummy.m */; };
-		28D24C583EE906CF670D7143C9167667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		30264025AB0C4BD8A15A509B21DA6AE0 /* UIApplication+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F76923F980C47A2AD466C0B63A7999 /* UIApplication+UILogging.m */; };
-		67045C2B72C543589CDE1DCF4386E1BB /* UILogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDBCEF55B7346051F13BDEDD75AFFAE /* UILogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B3FC04852CA23FFAAE74733B9EBB417 /* UIViewController+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = B8907D7150C1F5FCF75EB2B0C1735D5B /* UIViewController+UILogging.m */; };
-		8D56CD855491C68B7DFCAB610B632B19 /* Pods-UILogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FF6BAC7055854EC7D38B29012AD5A9 /* Pods-UILogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		951769596D3287F47F229A84CB7E7857 /* UILogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1A720EFD216207B8FC04F664DC4554 /* UILogger-dummy.m */; };
-		9A74CF5017D0BEF74C06A87C99F334C4 /* UILogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD703B10457470DE7B00DDEE2A2D971 /* UILogHelper.m */; };
-		A9DC49658F80CC0888572D5F44FB8293 /* UITableView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFE384662418B1EE696DF4A737F2E4 /* UITableView+UILogging.m */; };
-		B6FF2EBA23B0CB6F9CD34728B965259E /* UICollectionView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 045921A4673CDD80594F83E85FD2F462 /* UICollectionView+UILogging.m */; };
-		D3E902230B73C0C6A31C2FB3FD742C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		F328E765277C5E0FD61FC7B7EB57A29B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		FBE44C91E4A181CD419B8DD4D9AB6357 /* UILogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A69F0664C9F24A5DD742084B6275307 /* UILogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06A2D33AAC540ACCA1772AA3844CA796 /* UILogTitleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E91CDBC5FAA5F6F2A4FB434E1DB3A4B /* UILogTitleProvider.swift */; };
+		164BE6F8FE29C0FD06DA88E6230DCF8F /* UILogItemActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69DEE84F0372D5B2EA6334D1FBA2DF9 /* UILogItemActionType.swift */; };
+		259726F194E12DD314E9FE7B5951DC10 /* UILogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFC6F536EC0134493752C97BE0F8A4 /* UILogItem.swift */; };
+		4210955D2BD5828CF8E3BC1C973BAB94 /* UILogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD008EFA9123D21581CCB2CBAF789D /* UILogger-dummy.m */; };
+		4CA916E8A5748F0F879D6CB73608FC7E /* UIViewController+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = B42309C26B95464DCAA67FBCDC28489E /* UIViewController+UILogging.m */; };
+		53590D6118CC0080D40C89F0F2584C09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5BFB749B3861F6D859B1B34E9F1E2494 /* UICollectionView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA5BB45A444FF93C114AABE4F89979 /* UICollectionView+UILogging.m */; };
+		603E7CB7CC54BA137C3B612224FF595E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		643464EC08493BF4893A063BB857CC83 /* UILogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA9432676A4E5199467549AAD97144C /* UILogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97BE5D98DA7ACC76B7C843CB86E9D00F /* UILoggerLaunchTimeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B709AD73842EC1305C46F4848D62922 /* UILoggerLaunchTimeHolder.m */; };
+		AB8FB96DA0072DD89F939DF076B424D8 /* UIControlActionLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44235AE59A4B4A80BCF4667FB012D275 /* UIControlActionLogItem.swift */; };
+		ABFEE31084F1D329CC4C2C1787287BE3 /* Pods-UILogger-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E5DD1054336C6F10B9FFC5BF004EA /* Pods-UILogger-Example-dummy.m */; };
+		ACDC8CF5659DAE46E909DE39C006A1A3 /* UITableView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EF53BFC340F87557B774113760138B /* UITableView+UILogging.m */; };
+		BD9C77D69A6B36A2BA9E7F15802FA59F /* UILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88015228B14E3CE14BAB9F6C05AE4654 /* UILogger.swift */; };
+		D52883047679C3C42EA90FE39FF8B616 /* UITableOrCollectionViewSelectedCellLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930258C7B95DAEA20B3F00AAB11F230E /* UITableOrCollectionViewSelectedCellLogItem.swift */; };
+		D7C3E9A7C92C9D20C3D5F84DDD73CC1E /* UIApplication+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = D7298DC2A329687529FB1BB321794FE9 /* UIApplication+UILogging.m */; };
+		E148CF9C1D2D98A3F4822619AD97B830 /* Pods-UILogger-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C74118A3A4A407500BCF0C0FDD9634B /* Pods-UILogger-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4D9AAAE973821E3D46E65B67969D829 /* UILoggerLaunchTimeHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC94796948844EDC09F4CB22877807B /* UILoggerLaunchTimeHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E576620A3A66C750FB0870EA0F420CB5 /* UIViewControllerDidAppearLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3511012988C29F00A627AEB4E7D241 /* UIViewControllerDidAppearLogItem.swift */; };
+		E94BA0967F283860619108E4B740DEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F17F58EEEB379DB780A3195B1A7548D4 /* UIViewController+getFromResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54CFC682A6BFDA2398D4D8DF0D076C /* UIViewController+getFromResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BAD5E32674FC356C654E78EBC5E26BC /* PBXContainerItemProxy */ = {
+		A0DE159D2DABF967FE2D4142B0E41285 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63612FDB94195D938A64F19702B2B63F;
+			remoteGlobalIDString = 3DF7867A41E48EACCBD34461943D884A;
 			remoteInfo = UILogger;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045921A4673CDD80594F83E85FD2F462 /* UICollectionView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+UILogging.m"; path = "UILogger/Classes/UICollectionView+UILogging.m"; sourceTree = "<group>"; };
-		1F4220445C057BF9703983C7A8A7A24B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2924B9EAE433943AF7EBA2716A366582 /* Pods-UILogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UILogger_Example-dummy.m"; sourceTree = "<group>"; };
-		38D44DB7A48A082FBBAF5646FF0F1887 /* Pods-UILogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UILogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		44D38C870177F2163B91876646480217 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DBE70786810895D066A2F3604B92115 /* UILogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UILogger.xcconfig; sourceTree = "<group>"; };
-		4FE2817D9D63864DE3E90F5B647E18CE /* Pods-UILogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UILogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		52DFE384662418B1EE696DF4A737F2E4 /* UITableView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+UILogging.m"; path = "UILogger/Classes/UITableView+UILogging.m"; sourceTree = "<group>"; };
-		5A64842DF90D5C4561D5CE059B41474B /* Pods_UILogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UILogger_Example.framework; path = "Pods-UILogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63F76923F980C47A2AD466C0B63A7999 /* UIApplication+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+UILogging.m"; path = "UILogger/Classes/UIApplication+UILogging.m"; sourceTree = "<group>"; };
-		6A44760B94E9720D698421E239C5D1BC /* Pods-UILogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILogger_Example-resources.sh"; sourceTree = "<group>"; };
-		6A69F0664C9F24A5DD742084B6275307 /* UILogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UILogHelper.h; path = UILogger/Classes/UILogHelper.h; sourceTree = "<group>"; };
-		6B2B4DF05B92B938C8E4E9E0376C057B /* Pods-UILogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8BD703B10457470DE7B00DDEE2A2D971 /* UILogHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UILogHelper.m; path = UILogger/Classes/UILogHelper.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E1883D1D5C47B3E831C3572BD694F86 /* Pods-UILogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UILogger_Example.modulemap"; sourceTree = "<group>"; };
-		A8D78D1BFD3EF61DAA77A57B1C7820A3 /* Pods-UILogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILogger_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AEDBCEF55B7346051F13BDEDD75AFFAE /* UILogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-umbrella.h"; sourceTree = "<group>"; };
+		0B709AD73842EC1305C46F4848D62922 /* UILoggerLaunchTimeHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UILoggerLaunchTimeHolder.m; sourceTree = "<group>"; };
+		0D0E5DD1054336C6F10B9FFC5BF004EA /* Pods-UILogger-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UILogger-Example-dummy.m"; sourceTree = "<group>"; };
+		0E91CDBC5FAA5F6F2A4FB434E1DB3A4B /* UILogTitleProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILogTitleProvider.swift; path = UILogger/Classes/UILogTitleProvider.swift; sourceTree = "<group>"; };
+		138F225AA756FC042CAB3782934D8D8E /* Pods_UILogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UILogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AD008EFA9123D21581CCB2CBAF789D /* UILogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILogger-dummy.m"; sourceTree = "<group>"; };
+		1694E8355AE285F9CCE046A16ACD544E /* Pods-UILogger-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILogger-Example-resources.sh"; sourceTree = "<group>"; };
+		192F183D757A685BEE6EA42A7B6CCF71 /* UILogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UILogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		233D67E4B0CFE0623F7A2C192FBB32AC /* Pods-UILogger-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UILogger-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EFFC6F536EC0134493752C97BE0F8A4 /* UILogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILogItem.swift; sourceTree = "<group>"; };
+		310508ED26BFFB0D19AC15107819D050 /* Pods-UILogger-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UILogger-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3625B947C790C194644FAC41725231E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3511012988C29F00A627AEB4E7D241 /* UIViewControllerDidAppearLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerDidAppearLogItem.swift; sourceTree = "<group>"; };
+		3D79FFAD4977DFC2989A344002FDA012 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44235AE59A4B4A80BCF4667FB012D275 /* UIControlActionLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIControlActionLogItem.swift; sourceTree = "<group>"; };
+		4FCA5BB45A444FF93C114AABE4F89979 /* UICollectionView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+UILogging.m"; sourceTree = "<group>"; };
+		52D44815BF223959DA52BC59C74C8817 /* Pods-UILogger-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UILogger-Example.modulemap"; sourceTree = "<group>"; };
+		5503D660A825ABD8BE7B72330D0D6ECB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5D7BBBC96A108CCACE6D839D9C6B6026 /* UILogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-prefix.pch"; sourceTree = "<group>"; };
+		77259A64471CE639870B6C632C685C71 /* Pods-UILogger-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILogger-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88015228B14E3CE14BAB9F6C05AE4654 /* UILogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILogger.swift; path = UILogger/Classes/UILogger.swift; sourceTree = "<group>"; };
+		8CA9432676A4E5199467549AAD97144C /* UILogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-umbrella.h"; sourceTree = "<group>"; };
+		92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UILogger.xcconfig; sourceTree = "<group>"; };
+		930258C7B95DAEA20B3F00AAB11F230E /* UITableOrCollectionViewSelectedCellLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableOrCollectionViewSelectedCellLogItem.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C74118A3A4A407500BCF0C0FDD9634B /* Pods-UILogger-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UILogger-Example-umbrella.h"; sourceTree = "<group>"; };
+		A4B93B850E651B9D0931AF96C58A09D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB56E2AB2A8DAC307901DE88EC67D94A /* UILogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UILogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BB2FF29FCB3595515ADBC705D7D527 /* Pods-UILogger-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILogger-Example-frameworks.sh"; sourceTree = "<group>"; };
+		B42309C26B95464DCAA67FBCDC28489E /* UIViewController+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UILogging.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B8907D7150C1F5FCF75EB2B0C1735D5B /* UIViewController+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+UILogging.m"; path = "UILogger/Classes/UIViewController+UILogging.m"; sourceTree = "<group>"; };
-		CA1A720EFD216207B8FC04F664DC4554 /* UILogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILogger-dummy.m"; sourceTree = "<group>"; };
+		B8EF53BFC340F87557B774113760138B /* UITableView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UILogging.m"; sourceTree = "<group>"; };
+		BDC94796948844EDC09F4CB22877807B /* UILoggerLaunchTimeHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UILoggerLaunchTimeHolder.h; sourceTree = "<group>"; };
+		BFFD63AC4CDBE6EA31518FD584A630D5 /* UILogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UILogger.modulemap; sourceTree = "<group>"; };
+		D7298DC2A329687529FB1BB321794FE9 /* UIApplication+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+UILogging.m"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E44BC54636E41FA4C47C6B1A91021327 /* Pods-UILogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILogger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EDC6C1A11DA91F2F51AE19ED6BB0F9F2 /* UILogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UILogger.modulemap; sourceTree = "<group>"; };
-		F8FF6BAC7055854EC7D38B29012AD5A9 /* Pods-UILogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UILogger_Example-umbrella.h"; sourceTree = "<group>"; };
-		FDCCF85F9A3F8DF5C9BE0C72E85F7827 /* UILogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-prefix.pch"; sourceTree = "<group>"; };
-		FFD9BE2EE49977D43E30865EF98B41CF /* UILogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UILogger.framework; path = UILogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69DEE84F0372D5B2EA6334D1FBA2DF9 /* UILogItemActionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILogItemActionType.swift; sourceTree = "<group>"; };
+		EC54CFC682A6BFDA2398D4D8DF0D076C /* UIViewController+getFromResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+getFromResponder.swift"; sourceTree = "<group>"; };
+		EF241EF75F1E78E84943701C9369A7A4 /* Pods-UILogger-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILogger-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1854E5F37511681976E6E141C25D7B0B /* Frameworks */ = {
+		57E5B099E6A2037ADBCABA308B8DA9FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28D24C583EE906CF670D7143C9167667 /* Foundation.framework in Frameworks */,
+				E94BA0967F283860619108E4B740DEC4 /* Foundation.framework in Frameworks */,
+				603E7CB7CC54BA137C3B612224FF595E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A1FB8B193D3A7DA6D0A876FE9EB6902 /* Frameworks */ = {
+		AD9DE0636B4AE19052FB9945D001F20B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E902230B73C0C6A31C2FB3FD742C00 /* Foundation.framework in Frameworks */,
-				F328E765277C5E0FD61FC7B7EB57A29B /* UIKit.framework in Frameworks */,
+				53590D6118CC0080D40C89F0F2584C09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A4D5B5C9D8AFCE2A50B2776A585B16A /* Support Files */ = {
+		13D86F8DDA11C0A867561389AA23B790 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44D38C870177F2163B91876646480217 /* Info.plist */,
-				EDC6C1A11DA91F2F51AE19ED6BB0F9F2 /* UILogger.modulemap */,
-				4DBE70786810895D066A2F3604B92115 /* UILogger.xcconfig */,
-				CA1A720EFD216207B8FC04F664DC4554 /* UILogger-dummy.m */,
-				FDCCF85F9A3F8DF5C9BE0C72E85F7827 /* UILogger-prefix.pch */,
-				AEDBCEF55B7346051F13BDEDD75AFFAE /* UILogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UILogger";
-			sourceTree = "<group>";
-		};
-		3F2E95DBC1DCBFB5E15062B68F584AE4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A64842DF90D5C4561D5CE059B41474B /* Pods_UILogger_Example.framework */,
-				FFD9BE2EE49977D43E30865EF98B41CF /* UILogger.framework */,
+				138F225AA756FC042CAB3782934D8D8E /* Pods_UILogger_Example.framework */,
+				AB56E2AB2A8DAC307901DE88EC67D94A /* UILogger.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		38E5FE6C558BD8A09E2E2D7A3C252643 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				D7298DC2A329687529FB1BB321794FE9 /* UIApplication+UILogging.m */,
+				4FCA5BB45A444FF93C114AABE4F89979 /* UICollectionView+UILogging.m */,
+				B8EF53BFC340F87557B774113760138B /* UITableView+UILogging.m */,
+				B42309C26B95464DCAA67FBCDC28489E /* UIViewController+UILogging.m */,
+			);
+			name = Swizzling;
+			path = UILogger/Classes/Swizzling;
+			sourceTree = "<group>";
+		};
+		40A6CA13BCEA3E320E619B117FC8EE3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE37CD60BB3BD22F8D81C80D8038F47B /* Pods-UILogger-Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -123,18 +148,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63D98783A09E70299DC9EE48795FBB64 /* Targets Support Files */ = {
+		449149A5F7145FB809B14C8776DB8E09 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DAB3D48F0167957DEF0040177FA08B8F /* Pods-UILogger_Example */,
+				3625B947C790C194644FAC41725231E0 /* Info.plist */,
+				BFFD63AC4CDBE6EA31518FD584A630D5 /* UILogger.modulemap */,
+				92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */,
+				14AD008EFA9123D21581CCB2CBAF789D /* UILogger-dummy.m */,
+				5D7BBBC96A108CCACE6D839D9C6B6026 /* UILogger-prefix.pch */,
+				8CA9432676A4E5199467549AAD97144C /* UILogger-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UILogger";
 			sourceTree = "<group>";
 		};
 		69A4DF906691B61CEB830C70DDD9D0D6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA69609B94C90C72C5B7F8416EB48247 /* UILogger */,
+				FCD385DD6EDDAA80DEC65E39F2A22E3B /* UILogger */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -145,92 +176,108 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				69A4DF906691B61CEB830C70DDD9D0D6 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				3F2E95DBC1DCBFB5E15062B68F584AE4 /* Products */,
-				63D98783A09E70299DC9EE48795FBB64 /* Targets Support Files */,
+				13D86F8DDA11C0A867561389AA23B790 /* Products */,
+				40A6CA13BCEA3E320E619B117FC8EE3E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DA69609B94C90C72C5B7F8416EB48247 /* UILogger */ = {
+		84242D351B81DB3E5EF8A7DD10B00E52 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				63F76923F980C47A2AD466C0B63A7999 /* UIApplication+UILogging.m */,
-				045921A4673CDD80594F83E85FD2F462 /* UICollectionView+UILogging.m */,
-				6A69F0664C9F24A5DD742084B6275307 /* UILogHelper.h */,
-				8BD703B10457470DE7B00DDEE2A2D971 /* UILogHelper.m */,
-				52DFE384662418B1EE696DF4A737F2E4 /* UITableView+UILogging.m */,
-				B8907D7150C1F5FCF75EB2B0C1735D5B /* UIViewController+UILogging.m */,
-				0A4D5B5C9D8AFCE2A50B2776A585B16A /* Support Files */,
+				BDC94796948844EDC09F4CB22877807B /* UILoggerLaunchTimeHolder.h */,
+				0B709AD73842EC1305C46F4848D62922 /* UILoggerLaunchTimeHolder.m */,
+				EC54CFC682A6BFDA2398D4D8DF0D076C /* UIViewController+getFromResponder.swift */,
+			);
+			name = Helpers;
+			path = UILogger/Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		CE37CD60BB3BD22F8D81C80D8038F47B /* Pods-UILogger-Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D79FFAD4977DFC2989A344002FDA012 /* Info.plist */,
+				52D44815BF223959DA52BC59C74C8817 /* Pods-UILogger-Example.modulemap */,
+				310508ED26BFFB0D19AC15107819D050 /* Pods-UILogger-Example-acknowledgements.markdown */,
+				233D67E4B0CFE0623F7A2C192FBB32AC /* Pods-UILogger-Example-acknowledgements.plist */,
+				0D0E5DD1054336C6F10B9FFC5BF004EA /* Pods-UILogger-Example-dummy.m */,
+				B1BB2FF29FCB3595515ADBC705D7D527 /* Pods-UILogger-Example-frameworks.sh */,
+				1694E8355AE285F9CCE046A16ACD544E /* Pods-UILogger-Example-resources.sh */,
+				9C74118A3A4A407500BCF0C0FDD9634B /* Pods-UILogger-Example-umbrella.h */,
+				77259A64471CE639870B6C632C685C71 /* Pods-UILogger-Example.debug.xcconfig */,
+				EF241EF75F1E78E84943701C9369A7A4 /* Pods-UILogger-Example.release.xcconfig */,
+			);
+			name = "Pods-UILogger-Example";
+			path = "Target Support Files/Pods-UILogger-Example";
+			sourceTree = "<group>";
+		};
+		E08E54C4D9106A602B855B9C3082C504 /* Log Item */ = {
+			isa = PBXGroup;
+			children = (
+				44235AE59A4B4A80BCF4667FB012D275 /* UIControlActionLogItem.swift */,
+				2EFFC6F536EC0134493752C97BE0F8A4 /* UILogItem.swift */,
+				E69DEE84F0372D5B2EA6334D1FBA2DF9 /* UILogItemActionType.swift */,
+				930258C7B95DAEA20B3F00AAB11F230E /* UITableOrCollectionViewSelectedCellLogItem.swift */,
+				3A3511012988C29F00A627AEB4E7D241 /* UIViewControllerDidAppearLogItem.swift */,
+			);
+			name = "Log Item";
+			path = "UILogger/Classes/Log Item";
+			sourceTree = "<group>";
+		};
+		E1DCC9A4E408D4C0B4700DDE9F2128C7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5503D660A825ABD8BE7B72330D0D6ECB /* LICENSE */,
+				A4B93B850E651B9D0931AF96C58A09D0 /* README.md */,
+				192F183D757A685BEE6EA42A7B6CCF71 /* UILogger.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FCD385DD6EDDAA80DEC65E39F2A22E3B /* UILogger */ = {
+			isa = PBXGroup;
+			children = (
+				88015228B14E3CE14BAB9F6C05AE4654 /* UILogger.swift */,
+				0E91CDBC5FAA5F6F2A4FB434E1DB3A4B /* UILogTitleProvider.swift */,
+				84242D351B81DB3E5EF8A7DD10B00E52 /* Helpers */,
+				E08E54C4D9106A602B855B9C3082C504 /* Log Item */,
+				E1DCC9A4E408D4C0B4700DDE9F2128C7 /* Pod */,
+				449149A5F7145FB809B14C8776DB8E09 /* Support Files */,
+				38E5FE6C558BD8A09E2E2D7A3C252643 /* Swizzling */,
 			);
 			name = UILogger;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		DAB3D48F0167957DEF0040177FA08B8F /* Pods-UILogger_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1F4220445C057BF9703983C7A8A7A24B /* Info.plist */,
-				9E1883D1D5C47B3E831C3572BD694F86 /* Pods-UILogger_Example.modulemap */,
-				4FE2817D9D63864DE3E90F5B647E18CE /* Pods-UILogger_Example-acknowledgements.markdown */,
-				38D44DB7A48A082FBBAF5646FF0F1887 /* Pods-UILogger_Example-acknowledgements.plist */,
-				2924B9EAE433943AF7EBA2716A366582 /* Pods-UILogger_Example-dummy.m */,
-				A8D78D1BFD3EF61DAA77A57B1C7820A3 /* Pods-UILogger_Example-frameworks.sh */,
-				6A44760B94E9720D698421E239C5D1BC /* Pods-UILogger_Example-resources.sh */,
-				F8FF6BAC7055854EC7D38B29012AD5A9 /* Pods-UILogger_Example-umbrella.h */,
-				6B2B4DF05B92B938C8E4E9E0376C057B /* Pods-UILogger_Example.debug.xcconfig */,
-				E44BC54636E41FA4C47C6B1A91021327 /* Pods-UILogger_Example.release.xcconfig */,
-			);
-			name = "Pods-UILogger_Example";
-			path = "Target Support Files/Pods-UILogger_Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2780E30E4745B83CD3DE3395DAA7009C /* Headers */ = {
+		5C98C797176B584CB42CA60679F3F17E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D56CD855491C68B7DFCAB610B632B19 /* Pods-UILogger_Example-umbrella.h in Headers */,
+				643464EC08493BF4893A063BB857CC83 /* UILogger-umbrella.h in Headers */,
+				E4D9AAAE973821E3D46E65B67969D829 /* UILoggerLaunchTimeHolder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		363BF237630FF266AF83A22283D74C7D /* Headers */ = {
+		AFBF7753E2FE7E95F78348DBC139DF58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67045C2B72C543589CDE1DCF4386E1BB /* UILogger-umbrella.h in Headers */,
-				FBE44C91E4A181CD419B8DD4D9AB6357 /* UILogHelper.h in Headers */,
+				E148CF9C1D2D98A3F4822619AD97B830 /* Pods-UILogger-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B03989D28231CE353976B673409F0CF /* Pods-UILogger_Example */ = {
+		3DF7867A41E48EACCBD34461943D884A /* UILogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35B873832F2C00E5E40B636CBAB81A02 /* Build configuration list for PBXNativeTarget "Pods-UILogger_Example" */;
+			buildConfigurationList = D2403299BF7E248645506925896279B1 /* Build configuration list for PBXNativeTarget "UILogger" */;
 			buildPhases = (
-				B57020765A8A17E2EA3F9F5208ABD184 /* Sources */,
-				1854E5F37511681976E6E141C25D7B0B /* Frameworks */,
-				2780E30E4745B83CD3DE3395DAA7009C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6C4BFE0618FC290AB7779C474A476703 /* PBXTargetDependency */,
-			);
-			name = "Pods-UILogger_Example";
-			productName = "Pods-UILogger_Example";
-			productReference = 5A64842DF90D5C4561D5CE059B41474B /* Pods_UILogger_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		63612FDB94195D938A64F19702B2B63F /* UILogger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7501A7CAA05EA334DEE97B6DF19B3CB3 /* Build configuration list for PBXNativeTarget "UILogger" */;
-			buildPhases = (
-				CB755BB93A95662ECE6B5FDFED58F6A2 /* Sources */,
-				1A1FB8B193D3A7DA6D0A876FE9EB6902 /* Frameworks */,
-				363BF237630FF266AF83A22283D74C7D /* Headers */,
+				47A58AD27D624948F5B78A10475A9D1B /* Sources */,
+				57E5B099E6A2037ADBCABA308B8DA9FD /* Frameworks */,
+				5C98C797176B584CB42CA60679F3F17E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -238,7 +285,25 @@
 			);
 			name = UILogger;
 			productName = UILogger;
-			productReference = FFD9BE2EE49977D43E30865EF98B41CF /* UILogger.framework */;
+			productReference = AB56E2AB2A8DAC307901DE88EC67D94A /* UILogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B450122AD924FE66F5F1CA64FD569F0 /* Pods-UILogger-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFD9D02E6B556F2844B363CC8DDF6A5 /* Build configuration list for PBXNativeTarget "Pods-UILogger-Example" */;
+			buildPhases = (
+				BEE8FCE2A33BB95959277D185F92B385 /* Sources */,
+				AD9DE0636B4AE19052FB9945D001F20B /* Frameworks */,
+				AFBF7753E2FE7E95F78348DBC139DF58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4FD8D7DF6BD6FF2E5209A367CB58F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-UILogger-Example";
+			productName = "Pods-UILogger-Example";
+			productReference = 138F225AA756FC042CAB3782934D8D8E /* Pods_UILogger_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -258,172 +323,166 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3F2E95DBC1DCBFB5E15062B68F584AE4 /* Products */;
+			productRefGroup = 13D86F8DDA11C0A867561389AA23B790 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B03989D28231CE353976B673409F0CF /* Pods-UILogger_Example */,
-				63612FDB94195D938A64F19702B2B63F /* UILogger */,
+				4B450122AD924FE66F5F1CA64FD569F0 /* Pods-UILogger-Example */,
+				3DF7867A41E48EACCBD34461943D884A /* UILogger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B57020765A8A17E2EA3F9F5208ABD184 /* Sources */ = {
+		47A58AD27D624948F5B78A10475A9D1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBA28D2437EF5F3EA84BB2F00A25249 /* Pods-UILogger_Example-dummy.m in Sources */,
+				D7C3E9A7C92C9D20C3D5F84DDD73CC1E /* UIApplication+UILogging.m in Sources */,
+				5BFB749B3861F6D859B1B34E9F1E2494 /* UICollectionView+UILogging.m in Sources */,
+				AB8FB96DA0072DD89F939DF076B424D8 /* UIControlActionLogItem.swift in Sources */,
+				4210955D2BD5828CF8E3BC1C973BAB94 /* UILogger-dummy.m in Sources */,
+				BD9C77D69A6B36A2BA9E7F15802FA59F /* UILogger.swift in Sources */,
+				97BE5D98DA7ACC76B7C843CB86E9D00F /* UILoggerLaunchTimeHolder.m in Sources */,
+				259726F194E12DD314E9FE7B5951DC10 /* UILogItem.swift in Sources */,
+				164BE6F8FE29C0FD06DA88E6230DCF8F /* UILogItemActionType.swift in Sources */,
+				06A2D33AAC540ACCA1772AA3844CA796 /* UILogTitleProvider.swift in Sources */,
+				ACDC8CF5659DAE46E909DE39C006A1A3 /* UITableView+UILogging.m in Sources */,
+				D52883047679C3C42EA90FE39FF8B616 /* UITableOrCollectionViewSelectedCellLogItem.swift in Sources */,
+				F17F58EEEB379DB780A3195B1A7548D4 /* UIViewController+getFromResponder.swift in Sources */,
+				4CA916E8A5748F0F879D6CB73608FC7E /* UIViewController+UILogging.m in Sources */,
+				E576620A3A66C750FB0870EA0F420CB5 /* UIViewControllerDidAppearLogItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB755BB93A95662ECE6B5FDFED58F6A2 /* Sources */ = {
+		BEE8FCE2A33BB95959277D185F92B385 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30264025AB0C4BD8A15A509B21DA6AE0 /* UIApplication+UILogging.m in Sources */,
-				B6FF2EBA23B0CB6F9CD34728B965259E /* UICollectionView+UILogging.m in Sources */,
-				951769596D3287F47F229A84CB7E7857 /* UILogger-dummy.m in Sources */,
-				9A74CF5017D0BEF74C06A87C99F334C4 /* UILogHelper.m in Sources */,
-				A9DC49658F80CC0888572D5F44FB8293 /* UITableView+UILogging.m in Sources */,
-				7B3FC04852CA23FFAAE74733B9EBB417 /* UIViewController+UILogging.m in Sources */,
+				ABFEE31084F1D329CC4C2C1787287BE3 /* Pods-UILogger-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C4BFE0618FC290AB7779C474A476703 /* PBXTargetDependency */ = {
+		AC4FD8D7DF6BD6FF2E5209A367CB58F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UILogger;
-			target = 63612FDB94195D938A64F19702B2B63F /* UILogger */;
-			targetProxy = 1BAD5E32674FC356C654E78EBC5E26BC /* PBXContainerItemProxy */;
+			target = 3DF7867A41E48EACCBD34461943D884A /* UILogger */;
+			targetProxy = A0DE159D2DABF967FE2D4142B0E41285 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B1BACDFE3EECA4141E386433DF6B72A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B2B4DF05B92B938C8E4E9E0376C057B /* Pods-UILogger_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UILogger_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UILogger_Example/Pods-UILogger_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_UILogger_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -431,103 +490,30 @@
 			};
 			name = Debug;
 		};
-		D4DF0EAF7CC36DECA1A8D73370D058B2 /* Release */ = {
+		754BD99A8EF22E73FD990E7EB0041672 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DBE70786810895D066A2F3604B92115 /* UILogger.xcconfig */;
+			baseConfigurationReference = 92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/UILogger/UILogger-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UILogger/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UILogger/UILogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = UILogger;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F87250AFCC64D7D0B8D62149A9591763 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E44BC54636E41FA4C47C6B1A91021327 /* Pods-UILogger_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UILogger_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UILogger_Example/Pods-UILogger_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_UILogger_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FF833B7286E3325C4E23389A418D0AD8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DBE70786810895D066A2F3604B92115 /* UILogger.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UILogger/UILogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UILogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UILogger/UILogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UILogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -535,32 +521,132 @@
 			};
 			name = Debug;
 		};
+		9F32D769B1F5B9F185795E3170ED13DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77259A64471CE639870B6C632C685C71 /* Pods-UILogger-Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UILogger-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UILogger-Example/Pods-UILogger-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UILogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF5BF3B2B434EB9D331DBDB10C31123F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF241EF75F1E78E84943701C9369A7A4 /* Pods-UILogger-Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UILogger-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UILogger-Example/Pods-UILogger-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UILogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3A8176A23E0AD9FC7755D26387DA50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UILogger/UILogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UILogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UILogger/UILogger.modulemap";
+				PRODUCT_NAME = UILogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35B873832F2C00E5E40B636CBAB81A02 /* Build configuration list for PBXNativeTarget "Pods-UILogger_Example" */ = {
+		ACFD9D02E6B556F2844B363CC8DDF6A5 /* Build configuration list for PBXNativeTarget "Pods-UILogger-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1BACDFE3EECA4141E386433DF6B72A0 /* Debug */,
-				F87250AFCC64D7D0B8D62149A9591763 /* Release */,
+				9F32D769B1F5B9F185795E3170ED13DE /* Debug */,
+				BF5BF3B2B434EB9D331DBDB10C31123F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7501A7CAA05EA334DEE97B6DF19B3CB3 /* Build configuration list for PBXNativeTarget "UILogger" */ = {
+		D2403299BF7E248645506925896279B1 /* Build configuration list for PBXNativeTarget "UILogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF833B7286E3325C4E23389A418D0AD8 /* Debug */,
-				D4DF0EAF7CC36DECA1A8D73370D058B2 /* Release */,
+				754BD99A8EF22E73FD990E7EB0041672 /* Debug */,
+				C3A8176A23E0AD9FC7755D26387DA50A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

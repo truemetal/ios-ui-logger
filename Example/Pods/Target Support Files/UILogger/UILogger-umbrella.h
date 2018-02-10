@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "UILogHelper.h"
+#import "UILoggerLaunchTimeHolder.h"
 
 FOUNDATION_EXPORT double UILoggerVersionNumber;
 FOUNDATION_EXPORT const unsigned char UILoggerVersionString[];

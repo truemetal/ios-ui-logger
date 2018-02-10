@@ -2,12 +2,12 @@
 
 # Xcode
 # this ignores dummy workspace files in xcodeproj dir
-Example/UILogger.xcodeproj/*
-!Example/UILogger.xcodeproj/project.pbxproj
+Example/UILogger-Example.xcodeproj/*
+!Example/UILogger-Example.xcodeproj/project.pbxproj
 
 # this ignores all files in workspace dir except the needed one
-Example/UILogger.xcworkspace/*
-!Example/UILogger.xcworkspace/contents.xcworkspacedata
+Example/UILogger-Example.xcworkspace/*
+!Example/UILogger-Example.xcworkspace/contents.xcworkspacedata
 
 # pods xcodeproj
 Example/Pods/Pods.xcodeproj/*
