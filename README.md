@@ -43,6 +43,8 @@ public protocol UILogTitleProvider {
 
 To run the example project, clone the repo and open the workspace from the `Example` dir.
 
+![demo](uilogger%20demo.gif)
+
 ## Installation
 
 UILogger is available through [CocoaPods](http://cocoapods.org). To install
