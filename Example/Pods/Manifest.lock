@@ -1,5 +1,5 @@
 PODS:
-  - UILogger (0.1.0)
+  - UILogger (1.0.0)
 
 DEPENDENCIES:
   - UILogger (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UILogger: 9c74b06f6e9411327b2a7f12f9bda749df00a65e
+  UILogger: a8b1133eb3ba010c8eb5b47db415e1623e109484
 
 PODFILE CHECKSUM: d5b99949b342b5af8b6c6151a84aa632600460f2
 

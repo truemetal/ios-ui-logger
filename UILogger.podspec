@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UILogger'
-  s.version          = '0.1.0'
-  s.summary          = 'A simple logging framework for UI actions on iOS'
+  s.version          = '1.0.0'
+  s.summary          = 'A logging framework for UI actions on iOS'
   s.description      = <<-DESC
 A logging framework to log UI actions e.g. button taps, view controller appearances, table cell taps etc. Tags: log logs logging logger UI ui ui-log uilog
                        DESC
@@ -20,5 +20,5 @@ A logging framework to log UI actions e.g. button taps, view controller appearan
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'UILogger/Classes/*.{h,m,swift}', 'UILogger/Classes/*/*.{h,m,swift}'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'Foundation'
 end
