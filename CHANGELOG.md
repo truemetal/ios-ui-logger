@@ -2,6 +2,7 @@
 
 - sets example project deployment target to 8.0
 - adds .gif demo
+- minor fixes in example's storyboard
 
 ## 1.0.0 (0.2.0)
 
