@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A2D33AAC540ACCA1772AA3844CA796 /* UILogTitleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E91CDBC5FAA5F6F2A4FB434E1DB3A4B /* UILogTitleProvider.swift */; };
-		164BE6F8FE29C0FD06DA88E6230DCF8F /* UILogItemActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69DEE84F0372D5B2EA6334D1FBA2DF9 /* UILogItemActionType.swift */; };
-		259726F194E12DD314E9FE7B5951DC10 /* UILogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFC6F536EC0134493752C97BE0F8A4 /* UILogItem.swift */; };
-		4210955D2BD5828CF8E3BC1C973BAB94 /* UILogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD008EFA9123D21581CCB2CBAF789D /* UILogger-dummy.m */; };
-		4CA916E8A5748F0F879D6CB73608FC7E /* UIViewController+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = B42309C26B95464DCAA67FBCDC28489E /* UIViewController+UILogging.m */; };
+		03B5F6A4A798671046F504324786CDF1 /* UICollectionView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA9D7E9F69715E8477F278B11E86F5 /* UICollectionView+UILogging.m */; };
+		2B42F61ADCC1EF89AA5EDCE391817CE0 /* UITableOrCollectionViewSelectedCellLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454F5EFE6B5D8AC27B36DF4B4C30ED0F /* UITableOrCollectionViewSelectedCellLogItem.swift */; };
+		30F2D546D18C2B6EF770CBD9D9E30E50 /* UILogTitleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263A30385E2DC64E5BC04C1B7BE4B04B /* UILogTitleProvider.swift */; };
+		37F2F770B7D8067B58D479E994C47C2D /* UIViewController+getFromResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5894A7D0A97B02EB0ED9CA9E2F73E7B /* UIViewController+getFromResponder.swift */; };
 		53590D6118CC0080D40C89F0F2584C09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		5BFB749B3861F6D859B1B34E9F1E2494 /* UICollectionView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA5BB45A444FF93C114AABE4F89979 /* UICollectionView+UILogging.m */; };
 		603E7CB7CC54BA137C3B612224FF595E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		643464EC08493BF4893A063BB857CC83 /* UILogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA9432676A4E5199467549AAD97144C /* UILogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97BE5D98DA7ACC76B7C843CB86E9D00F /* UILoggerLaunchTimeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B709AD73842EC1305C46F4848D62922 /* UILoggerLaunchTimeHolder.m */; };
-		AB8FB96DA0072DD89F939DF076B424D8 /* UIControlActionLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44235AE59A4B4A80BCF4667FB012D275 /* UIControlActionLogItem.swift */; };
+		643464EC08493BF4893A063BB857CC83 /* UILogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F88238D0782B76B59F6E3473AF99E315 /* UILogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		697E85BA796F938971227650287AF7B9 /* UILogItemActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702BCA12F32B8A4AA401B3DD348B149 /* UILogItemActionType.swift */; };
+		777A975FC81CCC1FBA99DBEEE9F67E90 /* UIViewController+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7A3E484E50271A61F696D8AC91BBC5 /* UIViewController+UILogging.m */; };
+		8AC03108194220EBE87CD173457B41B8 /* UILogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CADC98B4BA9AA06F66274668ACF9B6B2 /* UILogger-dummy.m */; };
+		8F8C315B38294E4FFE9A4A9E8C12275D /* UILoggerLaunchTimeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE02276DDBDA204D9D12CD3D8D80188 /* UILoggerLaunchTimeHolder.m */; };
+		9182CD92FC8BF56D94FD07CCD8EEEA99 /* UIViewControllerDidAppearLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10C8521C0CF37061B571FE179CE1CB0 /* UIViewControllerDidAppearLogItem.swift */; };
 		ABFEE31084F1D329CC4C2C1787287BE3 /* Pods-UILogger-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E5DD1054336C6F10B9FFC5BF004EA /* Pods-UILogger-Example-dummy.m */; };
-		ACDC8CF5659DAE46E909DE39C006A1A3 /* UITableView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EF53BFC340F87557B774113760138B /* UITableView+UILogging.m */; };
-		BD9C77D69A6B36A2BA9E7F15802FA59F /* UILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88015228B14E3CE14BAB9F6C05AE4654 /* UILogger.swift */; };
-		D52883047679C3C42EA90FE39FF8B616 /* UITableOrCollectionViewSelectedCellLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930258C7B95DAEA20B3F00AAB11F230E /* UITableOrCollectionViewSelectedCellLogItem.swift */; };
-		D7C3E9A7C92C9D20C3D5F84DDD73CC1E /* UIApplication+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = D7298DC2A329687529FB1BB321794FE9 /* UIApplication+UILogging.m */; };
+		BD1E9733E4108DDFC67B359C9E8C258F /* UILogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20CA63F42B5AA9C154E1077FBB25621 /* UILogItem.swift */; };
+		CAF3D8F0365480CA7B050227F1AB3243 /* UITableView+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F3C238FAADF2203C791D3B379F14B /* UITableView+UILogging.m */; };
+		D58D7F0F07B051DA1D6C1130310FAF65 /* UIApplication+UILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = E62BE3E2E0B5A0226D6F26B2C715E152 /* UIApplication+UILogging.m */; };
 		E148CF9C1D2D98A3F4822619AD97B830 /* Pods-UILogger-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C74118A3A4A407500BCF0C0FDD9634B /* Pods-UILogger-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4D9AAAE973821E3D46E65B67969D829 /* UILoggerLaunchTimeHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC94796948844EDC09F4CB22877807B /* UILoggerLaunchTimeHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E576620A3A66C750FB0870EA0F420CB5 /* UIViewControllerDidAppearLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3511012988C29F00A627AEB4E7D241 /* UIViewControllerDidAppearLogItem.swift */; };
+		E1F38348137B257EF4FE1539C13E3D5B /* UILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF8E1A0C02772A1F46639D09AAFC70 /* UILogger.swift */; };
+		E4D9AAAE973821E3D46E65B67969D829 /* UILoggerLaunchTimeHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3B6EC28DBD5CAEF84D335244BEE2AA /* UILoggerLaunchTimeHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E94BA0967F283860619108E4B740DEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		F17F58EEEB379DB780A3195B1A7548D4 /* UIViewController+getFromResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54CFC682A6BFDA2398D4D8DF0D076C /* UIViewController+getFromResponder.swift */; };
+		EB8066CDCB5FFE779201241F5CE1B051 /* UIControlActionLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D948D6320C066F822E300C2EE4F40B /* UIControlActionLogItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,44 +41,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B709AD73842EC1305C46F4848D62922 /* UILoggerLaunchTimeHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UILoggerLaunchTimeHolder.m; sourceTree = "<group>"; };
 		0D0E5DD1054336C6F10B9FFC5BF004EA /* Pods-UILogger-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UILogger-Example-dummy.m"; sourceTree = "<group>"; };
-		0E91CDBC5FAA5F6F2A4FB434E1DB3A4B /* UILogTitleProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILogTitleProvider.swift; path = UILogger/Classes/UILogTitleProvider.swift; sourceTree = "<group>"; };
-		138F225AA756FC042CAB3782934D8D8E /* Pods_UILogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UILogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14AD008EFA9123D21581CCB2CBAF789D /* UILogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILogger-dummy.m"; sourceTree = "<group>"; };
+		138F225AA756FC042CAB3782934D8D8E /* Pods_UILogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UILogger_Example.framework; path = "Pods-UILogger-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		161396E69A2F0175519D5F7B2E45FF70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1694E8355AE285F9CCE046A16ACD544E /* Pods-UILogger-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILogger-Example-resources.sh"; sourceTree = "<group>"; };
-		192F183D757A685BEE6EA42A7B6CCF71 /* UILogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UILogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		233D67E4B0CFE0623F7A2C192FBB32AC /* Pods-UILogger-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UILogger-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2EFFC6F536EC0134493752C97BE0F8A4 /* UILogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILogItem.swift; sourceTree = "<group>"; };
+		263A30385E2DC64E5BC04C1B7BE4B04B /* UILogTitleProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILogTitleProvider.swift; path = UILogger/Classes/UILogTitleProvider.swift; sourceTree = "<group>"; };
 		310508ED26BFFB0D19AC15107819D050 /* Pods-UILogger-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UILogger-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3625B947C790C194644FAC41725231E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A3511012988C29F00A627AEB4E7D241 /* UIViewControllerDidAppearLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerDidAppearLogItem.swift; sourceTree = "<group>"; };
+		3BE02276DDBDA204D9D12CD3D8D80188 /* UILoggerLaunchTimeHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UILoggerLaunchTimeHolder.m; sourceTree = "<group>"; };
+		3C7A3E484E50271A61F696D8AC91BBC5 /* UIViewController+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UILogging.m"; sourceTree = "<group>"; };
+		3C80AF78A35602A7335EDA8331AA81CB /* UILogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UILogger.modulemap; sourceTree = "<group>"; };
 		3D79FFAD4977DFC2989A344002FDA012 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44235AE59A4B4A80BCF4667FB012D275 /* UIControlActionLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIControlActionLogItem.swift; sourceTree = "<group>"; };
-		4FCA5BB45A444FF93C114AABE4F89979 /* UICollectionView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+UILogging.m"; sourceTree = "<group>"; };
-		52D44815BF223959DA52BC59C74C8817 /* Pods-UILogger-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UILogger-Example.modulemap"; sourceTree = "<group>"; };
-		5503D660A825ABD8BE7B72330D0D6ECB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5D7BBBC96A108CCACE6D839D9C6B6026 /* UILogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-prefix.pch"; sourceTree = "<group>"; };
+		43868C535A46C871E49B00C48B0367FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		454F5EFE6B5D8AC27B36DF4B4C30ED0F /* UITableOrCollectionViewSelectedCellLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableOrCollectionViewSelectedCellLogItem.swift; sourceTree = "<group>"; };
+		4E886788243E605EF8FED36504E07C94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52D44815BF223959DA52BC59C74C8817 /* Pods-UILogger-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UILogger-Example.modulemap"; sourceTree = "<group>"; };
+		54D948D6320C066F822E300C2EE4F40B /* UIControlActionLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIControlActionLogItem.swift; sourceTree = "<group>"; };
+		6702BCA12F32B8A4AA401B3DD348B149 /* UILogItemActionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILogItemActionType.swift; sourceTree = "<group>"; };
 		77259A64471CE639870B6C632C685C71 /* Pods-UILogger-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILogger-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		88015228B14E3CE14BAB9F6C05AE4654 /* UILogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILogger.swift; path = UILogger/Classes/UILogger.swift; sourceTree = "<group>"; };
-		8CA9432676A4E5199467549AAD97144C /* UILogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-umbrella.h"; sourceTree = "<group>"; };
-		92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UILogger.xcconfig; sourceTree = "<group>"; };
-		930258C7B95DAEA20B3F00AAB11F230E /* UITableOrCollectionViewSelectedCellLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableOrCollectionViewSelectedCellLogItem.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EBF8E1A0C02772A1F46639D09AAFC70 /* UILogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILogger.swift; path = UILogger/Classes/UILogger.swift; sourceTree = "<group>"; };
+		8FBBBE66C55AEB9CE9F8A3456C3863D4 /* UILogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UILogger.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C74118A3A4A407500BCF0C0FDD9634B /* Pods-UILogger-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UILogger-Example-umbrella.h"; sourceTree = "<group>"; };
-		A4B93B850E651B9D0931AF96C58A09D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AB56E2AB2A8DAC307901DE88EC67D94A /* UILogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UILogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB56E2AB2A8DAC307901DE88EC67D94A /* UILogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UILogger.framework; path = UILogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BB2FF29FCB3595515ADBC705D7D527 /* Pods-UILogger-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILogger-Example-frameworks.sh"; sourceTree = "<group>"; };
-		B42309C26B95464DCAA67FBCDC28489E /* UIViewController+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UILogging.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B8EF53BFC340F87557B774113760138B /* UITableView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UILogging.m"; sourceTree = "<group>"; };
-		BDC94796948844EDC09F4CB22877807B /* UILoggerLaunchTimeHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UILoggerLaunchTimeHolder.h; sourceTree = "<group>"; };
-		BFFD63AC4CDBE6EA31518FD584A630D5 /* UILogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UILogger.modulemap; sourceTree = "<group>"; };
-		D7298DC2A329687529FB1BB321794FE9 /* UIApplication+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+UILogging.m"; sourceTree = "<group>"; };
+		B81603E70CD3EB3044FB5C7F98C28FF5 /* UILogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-prefix.pch"; sourceTree = "<group>"; };
+		CADC98B4BA9AA06F66274668ACF9B6B2 /* UILogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILogger-dummy.m"; sourceTree = "<group>"; };
+		CE3B6EC28DBD5CAEF84D335244BEE2AA /* UILoggerLaunchTimeHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UILoggerLaunchTimeHolder.h; sourceTree = "<group>"; };
+		D6EA9D7E9F69715E8477F278B11E86F5 /* UICollectionView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+UILogging.m"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E69DEE84F0372D5B2EA6334D1FBA2DF9 /* UILogItemActionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILogItemActionType.swift; sourceTree = "<group>"; };
-		EC54CFC682A6BFDA2398D4D8DF0D076C /* UIViewController+getFromResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+getFromResponder.swift"; sourceTree = "<group>"; };
+		E10C8521C0CF37061B571FE179CE1CB0 /* UIViewControllerDidAppearLogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerDidAppearLogItem.swift; sourceTree = "<group>"; };
+		E62BE3E2E0B5A0226D6F26B2C715E152 /* UIApplication+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+UILogging.m"; sourceTree = "<group>"; };
+		E94F3C238FAADF2203C791D3B379F14B /* UITableView+UILogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UILogging.m"; sourceTree = "<group>"; };
 		EF241EF75F1E78E84943701C9369A7A4 /* Pods-UILogger-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILogger-Example.release.xcconfig"; sourceTree = "<group>"; };
+		EFC815AC9530FBD83A6471EDDC3CFEC4 /* UILogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UILogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F20CA63F42B5AA9C154E1077FBB25621 /* UILogItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILogItem.swift; sourceTree = "<group>"; };
+		F5894A7D0A97B02EB0ED9CA9E2F73E7B /* UIViewController+getFromResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+getFromResponder.swift"; sourceTree = "<group>"; };
+		F88238D0782B76B59F6E3473AF99E315 /* UILogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILogger-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,16 +111,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		38E5FE6C558BD8A09E2E2D7A3C252643 /* Swizzling */ = {
+		1EDEC3BFB36D78BD82052A24A5EDDB54 /* UILogger */ = {
 			isa = PBXGroup;
 			children = (
-				D7298DC2A329687529FB1BB321794FE9 /* UIApplication+UILogging.m */,
-				4FCA5BB45A444FF93C114AABE4F89979 /* UICollectionView+UILogging.m */,
-				B8EF53BFC340F87557B774113760138B /* UITableView+UILogging.m */,
-				B42309C26B95464DCAA67FBCDC28489E /* UIViewController+UILogging.m */,
+				7EBF8E1A0C02772A1F46639D09AAFC70 /* UILogger.swift */,
+				263A30385E2DC64E5BC04C1B7BE4B04B /* UILogTitleProvider.swift */,
+				6BCA2276850E3291DC633490C0561E20 /* Helpers */,
+				6CBF55D02330CD45AA20B481B55493F3 /* Log Item */,
+				C7498B12D2EF9A649E14FF1F529999C0 /* Pod */,
+				A1CBC5EA92D7DC8F7E3C6685CE84F258 /* Support Files */,
+				CFC3F5B7ACBEFF07112D0A5C3CBC3847 /* Swizzling */,
 			);
-			name = Swizzling;
-			path = UILogger/Classes/Swizzling;
+			name = UILogger;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		40A6CA13BCEA3E320E619B117FC8EE3E /* Targets Support Files */ = {
@@ -148,26 +151,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		449149A5F7145FB809B14C8776DB8E09 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3625B947C790C194644FAC41725231E0 /* Info.plist */,
-				BFFD63AC4CDBE6EA31518FD584A630D5 /* UILogger.modulemap */,
-				92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */,
-				14AD008EFA9123D21581CCB2CBAF789D /* UILogger-dummy.m */,
-				5D7BBBC96A108CCACE6D839D9C6B6026 /* UILogger-prefix.pch */,
-				8CA9432676A4E5199467549AAD97144C /* UILogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UILogger";
-			sourceTree = "<group>";
-		};
 		69A4DF906691B61CEB830C70DDD9D0D6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FCD385DD6EDDAA80DEC65E39F2A22E3B /* UILogger */,
+				1EDEC3BFB36D78BD82052A24A5EDDB54 /* UILogger */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6BCA2276850E3291DC633490C0561E20 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B6EC28DBD5CAEF84D335244BEE2AA /* UILoggerLaunchTimeHolder.h */,
+				3BE02276DDBDA204D9D12CD3D8D80188 /* UILoggerLaunchTimeHolder.m */,
+				F5894A7D0A97B02EB0ED9CA9E2F73E7B /* UIViewController+getFromResponder.swift */,
+			);
+			name = Helpers;
+			path = UILogger/Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		6CBF55D02330CD45AA20B481B55493F3 /* Log Item */ = {
+			isa = PBXGroup;
+			children = (
+				54D948D6320C066F822E300C2EE4F40B /* UIControlActionLogItem.swift */,
+				F20CA63F42B5AA9C154E1077FBB25621 /* UILogItem.swift */,
+				6702BCA12F32B8A4AA401B3DD348B149 /* UILogItemActionType.swift */,
+				454F5EFE6B5D8AC27B36DF4B4C30ED0F /* UITableOrCollectionViewSelectedCellLogItem.swift */,
+				E10C8521C0CF37061B571FE179CE1CB0 /* UIViewControllerDidAppearLogItem.swift */,
+			);
+			name = "Log Item";
+			path = "UILogger/Classes/Log Item";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -181,15 +194,28 @@
 			);
 			sourceTree = "<group>";
 		};
-		84242D351B81DB3E5EF8A7DD10B00E52 /* Helpers */ = {
+		A1CBC5EA92D7DC8F7E3C6685CE84F258 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BDC94796948844EDC09F4CB22877807B /* UILoggerLaunchTimeHolder.h */,
-				0B709AD73842EC1305C46F4848D62922 /* UILoggerLaunchTimeHolder.m */,
-				EC54CFC682A6BFDA2398D4D8DF0D076C /* UIViewController+getFromResponder.swift */,
+				161396E69A2F0175519D5F7B2E45FF70 /* Info.plist */,
+				3C80AF78A35602A7335EDA8331AA81CB /* UILogger.modulemap */,
+				8FBBBE66C55AEB9CE9F8A3456C3863D4 /* UILogger.xcconfig */,
+				CADC98B4BA9AA06F66274668ACF9B6B2 /* UILogger-dummy.m */,
+				B81603E70CD3EB3044FB5C7F98C28FF5 /* UILogger-prefix.pch */,
+				F88238D0782B76B59F6E3473AF99E315 /* UILogger-umbrella.h */,
 			);
-			name = Helpers;
-			path = UILogger/Classes/Helpers;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UILogger";
+			sourceTree = "<group>";
+		};
+		C7498B12D2EF9A649E14FF1F529999C0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4E886788243E605EF8FED36504E07C94 /* LICENSE */,
+				43868C535A46C871E49B00C48B0367FA /* README.md */,
+				EFC815AC9530FBD83A6471EDDC3CFEC4 /* UILogger.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CE37CD60BB3BD22F8D81C80D8038F47B /* Pods-UILogger-Example */ = {
@@ -210,42 +236,16 @@
 			path = "Target Support Files/Pods-UILogger-Example";
 			sourceTree = "<group>";
 		};
-		E08E54C4D9106A602B855B9C3082C504 /* Log Item */ = {
+		CFC3F5B7ACBEFF07112D0A5C3CBC3847 /* Swizzling */ = {
 			isa = PBXGroup;
 			children = (
-				44235AE59A4B4A80BCF4667FB012D275 /* UIControlActionLogItem.swift */,
-				2EFFC6F536EC0134493752C97BE0F8A4 /* UILogItem.swift */,
-				E69DEE84F0372D5B2EA6334D1FBA2DF9 /* UILogItemActionType.swift */,
-				930258C7B95DAEA20B3F00AAB11F230E /* UITableOrCollectionViewSelectedCellLogItem.swift */,
-				3A3511012988C29F00A627AEB4E7D241 /* UIViewControllerDidAppearLogItem.swift */,
+				E62BE3E2E0B5A0226D6F26B2C715E152 /* UIApplication+UILogging.m */,
+				D6EA9D7E9F69715E8477F278B11E86F5 /* UICollectionView+UILogging.m */,
+				E94F3C238FAADF2203C791D3B379F14B /* UITableView+UILogging.m */,
+				3C7A3E484E50271A61F696D8AC91BBC5 /* UIViewController+UILogging.m */,
 			);
-			name = "Log Item";
-			path = "UILogger/Classes/Log Item";
-			sourceTree = "<group>";
-		};
-		E1DCC9A4E408D4C0B4700DDE9F2128C7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5503D660A825ABD8BE7B72330D0D6ECB /* LICENSE */,
-				A4B93B850E651B9D0931AF96C58A09D0 /* README.md */,
-				192F183D757A685BEE6EA42A7B6CCF71 /* UILogger.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FCD385DD6EDDAA80DEC65E39F2A22E3B /* UILogger */ = {
-			isa = PBXGroup;
-			children = (
-				88015228B14E3CE14BAB9F6C05AE4654 /* UILogger.swift */,
-				0E91CDBC5FAA5F6F2A4FB434E1DB3A4B /* UILogTitleProvider.swift */,
-				84242D351B81DB3E5EF8A7DD10B00E52 /* Helpers */,
-				E08E54C4D9106A602B855B9C3082C504 /* Log Item */,
-				E1DCC9A4E408D4C0B4700DDE9F2128C7 /* Pod */,
-				449149A5F7145FB809B14C8776DB8E09 /* Support Files */,
-				38E5FE6C558BD8A09E2E2D7A3C252643 /* Swizzling */,
-			);
-			name = UILogger;
-			path = ../..;
+			name = Swizzling;
+			path = UILogger/Classes/Swizzling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2403299BF7E248645506925896279B1 /* Build configuration list for PBXNativeTarget "UILogger" */;
 			buildPhases = (
-				47A58AD27D624948F5B78A10475A9D1B /* Sources */,
+				81DDF1499D1EC8EBDE6BDE6BB1B3DC53 /* Sources */,
 				57E5B099E6A2037ADBCABA308B8DA9FD /* Frameworks */,
 				5C98C797176B584CB42CA60679F3F17E /* Headers */,
 			);
@@ -334,24 +334,24 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47A58AD27D624948F5B78A10475A9D1B /* Sources */ = {
+		81DDF1499D1EC8EBDE6BDE6BB1B3DC53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C3E9A7C92C9D20C3D5F84DDD73CC1E /* UIApplication+UILogging.m in Sources */,
-				5BFB749B3861F6D859B1B34E9F1E2494 /* UICollectionView+UILogging.m in Sources */,
-				AB8FB96DA0072DD89F939DF076B424D8 /* UIControlActionLogItem.swift in Sources */,
-				4210955D2BD5828CF8E3BC1C973BAB94 /* UILogger-dummy.m in Sources */,
-				BD9C77D69A6B36A2BA9E7F15802FA59F /* UILogger.swift in Sources */,
-				97BE5D98DA7ACC76B7C843CB86E9D00F /* UILoggerLaunchTimeHolder.m in Sources */,
-				259726F194E12DD314E9FE7B5951DC10 /* UILogItem.swift in Sources */,
-				164BE6F8FE29C0FD06DA88E6230DCF8F /* UILogItemActionType.swift in Sources */,
-				06A2D33AAC540ACCA1772AA3844CA796 /* UILogTitleProvider.swift in Sources */,
-				ACDC8CF5659DAE46E909DE39C006A1A3 /* UITableView+UILogging.m in Sources */,
-				D52883047679C3C42EA90FE39FF8B616 /* UITableOrCollectionViewSelectedCellLogItem.swift in Sources */,
-				F17F58EEEB379DB780A3195B1A7548D4 /* UIViewController+getFromResponder.swift in Sources */,
-				4CA916E8A5748F0F879D6CB73608FC7E /* UIViewController+UILogging.m in Sources */,
-				E576620A3A66C750FB0870EA0F420CB5 /* UIViewControllerDidAppearLogItem.swift in Sources */,
+				D58D7F0F07B051DA1D6C1130310FAF65 /* UIApplication+UILogging.m in Sources */,
+				03B5F6A4A798671046F504324786CDF1 /* UICollectionView+UILogging.m in Sources */,
+				EB8066CDCB5FFE779201241F5CE1B051 /* UIControlActionLogItem.swift in Sources */,
+				8AC03108194220EBE87CD173457B41B8 /* UILogger-dummy.m in Sources */,
+				E1F38348137B257EF4FE1539C13E3D5B /* UILogger.swift in Sources */,
+				8F8C315B38294E4FFE9A4A9E8C12275D /* UILoggerLaunchTimeHolder.m in Sources */,
+				BD1E9733E4108DDFC67B359C9E8C258F /* UILogItem.swift in Sources */,
+				697E85BA796F938971227650287AF7B9 /* UILogItemActionType.swift in Sources */,
+				30F2D546D18C2B6EF770CBD9D9E30E50 /* UILogTitleProvider.swift in Sources */,
+				2B42F61ADCC1EF89AA5EDCE391817CE0 /* UITableOrCollectionViewSelectedCellLogItem.swift in Sources */,
+				CAF3D8F0365480CA7B050227F1AB3243 /* UITableView+UILogging.m in Sources */,
+				37F2F770B7D8067B58D479E994C47C2D /* UIViewController+getFromResponder.swift in Sources */,
+				777A975FC81CCC1FBA99DBEEE9F67E90 /* UIViewController+UILogging.m in Sources */,
+				9182CD92FC8BF56D94FD07CCD8EEEA99 /* UIViewControllerDidAppearLogItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +492,7 @@
 		};
 		754BD99A8EF22E73FD990E7EB0041672 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */;
+			baseConfigurationReference = 8FBBBE66C55AEB9CE9F8A3456C3863D4 /* UILogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -591,7 +591,7 @@
 		};
 		C3A8176A23E0AD9FC7755D26387DA50A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92A4FF70091FC7AE96F4242AC2862347 /* UILogger.xcconfig */;
+			baseConfigurationReference = 8FBBBE66C55AEB9CE9F8A3456C3863D4 /* UILogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

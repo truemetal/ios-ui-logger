@@ -35,7 +35,7 @@ There's this protocol if you'd like to return title from custom table or collect
 
 ```swift
 public protocol UILogTitleProvider {
-var uiLogTitle: String? { get }
+    var uiLogTitle: String? { get }
 }
 ```
 
